@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Registeration</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="images/favIcon.png"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <section class="header">
+        <div class="topNav">
+            <div class="row">
+                <div class="col-12 col-sm-9">
+                    <div class="left">
+                        <select>
+                            <option>Currency: USD - United States Dollar</option>
+                            <option>Currency: AED - United Arab Emirates</option>
+                            <option>Currency: BHD - Bahraini Dinar</option>
+                            <option>Currency: INR - Indian Rupee</option>
+                            <option>Currency: KWD - Kuwaiti Dinar</option>
+                            <option>Currency: OMR - Omani Rial</option>
+                            <option>Currency: SAR - Saudi Riyal</option>
+                            <option>Currency: USD - United States Dollar</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="right">
+                                <a href="#" class="redLink">العربية</a>
+                                <a href="#" class="redLink">About Idealz</a>
+                                <a href="#" class="redLink">Help Center</a>
+                        </div>
+                    </divro>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="HowItWorks.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Campaigns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                    </ul>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search products" /><span></span>
+                    </div>
+                    <form class="form-inline my-2 my-lg-0 loginbar">
+                        <a data-toggle="modal" data-target="#modal2" id="b2"> Login or Register <i class="fas fa-user"
+                                aria-hidden="true"></i> </a>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0 ml-4 cart">
+                        <a href="#"> <i class="fas fa-shopping-cart"></i></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="loginModal">
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label"
+                aria-hidden="true" data-trigger="hover">
+                <div class="modal-dialog modal-sm modal-right">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h5 class="text-center">Login</h5>
+                            <div class="login tab-content current">
+
+                                <form>
+                                    <div class="form-section">
+                                        <span class="fa fa-user input-icon"></span>
+                                        <input type="text" name="name" placeholder="Username" required>
+                                    </div>
+                                    <div class="form-section">
+                                        <span class="fa fa-unlock-alt input-icon"></span>
+                                        <input type="password" name="password" placeholder="Password" required>
+                                    </div>
+                                    <div class="form-section btn-container">
+                                        <input type="submit" value="Login">
+                                    </div>
+
+                                </form>
+                                <div class="loginLinks">
+                                    <a href="register.html" class="text-danger">New user? Register now</a>
+                                    <hr>
+                                    <a href="#">Password help</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="register">
+        <div class="col-12 col-sm-6 m-auto">
+            <h3>Register</h3>
+
+            <div id="container">
+
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-1">Login</li>
+                    <li class="tab-link" data-tab="tab-2">Register</li>
+                </ul>
+
+                <div id="tab-1" class="login tab-content current">
+
+                    <form>
+                        <div class="form-section">
+                            <span class="fa fa-user input-icon"></span>
+                            <input type="text" name="name" placeholder="Username" required>
+                        </div>
+                        <div class="form-section">
+                            <span class="fa fa-unlock-alt input-icon"></span>
+                            <input type="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="form-section btn-container">
+                            <input type="submit" value="Login">
+                        </div>
+                    </form>
+
+                </div>
+                <div id="tab-2" class="register tab-content">
+                    <form>
+
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <div class="form-section">
+                                    <span class="fa fa-user input-icon"></span>
+                                    <input type="text" name="name" placeholder="First name" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="form-section">
+                                    <span class="fa fa-user input-icon"></span>
+                                    <input type="text" name="name" placeholder="Last name" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-section">
+                            <span class="fa fa-envelope input-icon"></span>
+                            <input type="email" name="name" placeholder="Email" class="email" required>
+                        </div>
+                        <div class="form-section">
+                            <span class="fa fa-unlock-alt input-icon"></span>
+                            <input type="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="form-section">
+                            <span class="fa fa-unlock-alt input-icon"></span>
+                            <input type="password" name="password" placeholder="Confirm password" required>
+                        </div>
+                        <div class="form-section">
+                            <span class="fas fa-phone-volume input-icon"></span>
+                            <input type="tel" name="no" placeholder="Mobile no." class="name" required>
+                        </div>
+                        <div class="form-section">
+                            <input type="checkbox"> By signing up you agree to our User Agreement, Privacy Policy and
+                            Draw Terms & Conditions
+                        </div>
+                        <div class="form-section btn-container">
+                            <input type="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
