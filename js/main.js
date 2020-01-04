@@ -22,13 +22,23 @@ $(document).ready(function(){
 	})
 })
 // -------------login modal----------------
-$("#b2").hover(function () {
+$("#b2").click(function () {
 	$(this).addClass("hoverLink");
     $('#modal2').modal({
         show: true,
         backdrop: false
     })
 });
+$(window).on('load resize',function() {
+	if ($(this).width() < 769) {
+		$('.loginbar a').attr("href");
+		$('.loginbar a').removeAttr("data-toggle", "data-target");
+	} else {
+		$('.loginbar a').attr("data-toggle", "data-target");
+		$('.loginbar a').removeAttr("href");
+
+	}
+	});
 // -------------navbar--------
 $(window).scroll(function() {
 	if ($(".navbar").offset().top > 50) {
