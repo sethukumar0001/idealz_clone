@@ -20,6 +20,7 @@ $(document).ready(function(){
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
 	})
+	
 })
 // -------------login modal----------------
 $("#b2").click(function () {
@@ -52,4 +53,25 @@ $(window).scroll(function() {
       } else {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
       }
-    });
+	});
+	
+	// -----product slider ---------
+	// jQuery(document).ready(function($) {
+	// 	$('.product-items-slider').owlCarousel({
+	// 	loop:false,
+	// 	items: 3,
+	// 	nav: true,
+	// 	navText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],
+	// 	stagePadding: 5,
+	// 	responsive:{
+	// 		0:{
+	// 			items:1
+	// 		},
+	// 		600:{
+	// 			items:2
+	// 		},
+	// 		1000:{
+	// 			items:3
+	// 		}
+	// 	}
+	// })
