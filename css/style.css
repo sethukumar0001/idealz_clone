@@ -774,11 +774,6 @@ iframe#video-player {
 
   .loginModal {
     display: none; } }
-.products {
-  margin-bottom: 2em; }
-  .products .col-sm-6 {
-    padding: 3%; }
-
 .product-items-slider {
   padding: 0;
   margin-bottom: 10px; }
@@ -793,7 +788,6 @@ iframe#video-player {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5); }
 
 .product-items-slider .product-item {
-  box-shadow: 0 5px 21px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   border: 1px solid transparent;
   display: flex !important;
@@ -801,9 +795,6 @@ iframe#video-player {
   justify-content: center;
   align-items: center;
   box-sizing: border-box; }
-
-.product-items-slider .product-item:hover {
-  border: 1px solid #e74c3c; }
 
 .product-items-slider .product-item .product-item-photo {
   padding-top: 20px;
@@ -937,5 +928,81 @@ iframe#video-player {
   .owl-prev i, .owl-next i {
     transform: scale(1, 6);
     color: #ccc; } }
+.wishlist {
+  margin-bottom: 4em; }
+  .wishlist img {
+    width: 20%; }
+
+.data-one,
+.data-two,
+.data-three {
+  float: left;
+  display: inline; }
+
+.circliful {
+  position: relative; }
+
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  display: inline-block; }
+
+.circle-info {
+  color: #999; }
+
+.circliful .fa {
+  margin: -10px 3px 0 3px;
+  position: relative;
+  bottom: 4px; }
+
+ul.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 9vw; }
+
+.cams {
+  margin-bottom: 2em; }
+  .cams .data-three {
+    display: inline; }
+  .cams .circliful {
+    position: relative; }
+  .cams .circle-text, .cams .circle-info, .cams .circle-text-half, .cams .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block; }
+  .cams .circle-info {
+    color: #999; }
+  .cams .circliful .fa {
+    margin: -10px 3px 0 3px;
+    position: relative;
+    bottom: 4px; }
+  .cams div#carouselExampleIndicators {
+    box-shadow: -1px -3px 17px #827d7d;
+    border-radius: 20px;
+    background: white; }
+  .cams .blockTitle {
+    margin-top: 2em; }
+  .cams .blockContent p {
+    font-size: 12px;
+    color: #9B9B9B;
+    transform: translateZ(0);
+    letter-spacing: -.21px;
+    line-height: 1.3;
+    max-width: calc(100% - 4rem);
+    margin: 2rem auto 35px;
+    text-align: center;
+    display: block;
+    display: -webkit-box;
+    height: calc(12px * 1.3 * 2);
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .cams .imgMargin {
+    margin-bottom: 2em; }
 
 /*# sourceMappingURL=style.css.map */
