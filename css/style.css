@@ -1216,14 +1216,6 @@ iframe#video-player {
   }
 }
 
-.wishlist {
-  margin-bottom: 4em;
-}
-
-.wishlist img {
-  width: 20%;
-}
-
 .data-one,
 .data-two,
 .data-three {
@@ -1318,4 +1310,419 @@ ul.circles {
 
 .cams .imgMargin {
   margin-bottom: 2em;
+}
+
+.emptyWishlist {
+  margin-bottom: 4em;
+}
+
+.emptyWishlist img {
+  width: 20%;
+}
+
+.wishlist {
+  /* TOTAL AND CHECKOUT  */
+}
+
+.wishlist body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wishlist img {
+  max-width: 100%;
+}
+
+.wishlist .cf:before, .wishlist .cf:after {
+  content: " ";
+  display: table;
+}
+
+.wishlist .cf:after {
+  clear: both;
+}
+
+.wishlist .cf {
+  *zoom: 1;
+}
+
+.wishlist .wrap {
+  width: 75%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5% 0;
+  margin-bottom: 5em;
+}
+
+.wishlist .projTitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  padding: 1em 0;
+  border-bottom: 1px solid #dadada;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.wishlist .projTitle span {
+  font-weight: normal;
+  font-style: italic;
+  text-transform: lowercase;
+  color: #777;
+}
+
+.wishlist .heading {
+  padding: 1em 0;
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.wishlist .heading h1 {
+  font-size: 2em;
+  float: left;
+}
+
+.wishlist .heading a.continue:link, .wishlist .heading a.continue:visited {
+  text-decoration: none;
+  letter-spacing: -.015em;
+  font-size: .75em;
+  padding: 1em;
+  color: #fff;
+  background: #2980b9;
+  font-weight: bold;
+  border-radius: 50px;
+  float: right;
+  text-align: right;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.wishlist .heading a.continue:after {
+  content: "\276f";
+  padding: .5em;
+  position: relative;
+  right: 0;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.wishlist .heading a.continue:hover, .wishlist .heading a.continue:focus, .wishlist .heading a.continue:active {
+  background: #af0909;
+}
+
+.wishlist .heading a.continue:hover:after, .wishlist .heading a.continue:focus:after, .wishlist .heading a.continue:active:after {
+  right: -10px;
+}
+
+.wishlist .tableHead {
+  display: table;
+  width: 100%;
+  font-size: .75em;
+}
+
+.wishlist .tableHead li {
+  display: table-cell;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.wishlist .tableHead li.prodHeader {
+  text-align: left;
+}
+
+.wishlist .cart {
+  padding: 1em 0;
+}
+
+.wishlist .cart .items {
+  display: block;
+  width: 100%;
+  padding: 1.5em;
+  border-bottom: 1px solid #fafafa;
+}
+
+.wishlist .cart .items.even {
+  background: #fafafa;
+}
+
+.wishlist .cart .items .infoWrap {
+  display: table;
+  width: 100%;
+}
+
+.wishlist .cart .items .cartSection {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.wishlist .cart .items .cartSection .itemNumber {
+  font-size: .75em;
+  color: #777;
+  margin-bottom: .5em;
+}
+
+.wishlist .cart .items .cartSection h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+}
+
+.wishlist .cart .items .cartSection p {
+  display: inline-block;
+  font-size: .85em;
+  color: #777777;
+}
+
+.wishlist .cart .items .cartSection p .quantity {
+  font-weight: bold;
+  color: #333;
+}
+
+.wishlist .cart .items .cartSection p.stockStatus {
+  color: #2980b9;
+  font-weight: bold;
+  padding: .5em 0 0 1em;
+  text-transform: uppercase;
+}
+
+.wishlist .cart .items .cartSection p.stockStatus.out {
+  color: #af0909;
+}
+
+.wishlist .cart .items .cartSection .itemImg {
+  width: 40%;
+  float: left;
+}
+
+.wishlist .cart .items .cartSection.qtyWrap, .wishlist .cart .items .cartSection.prodTotal {
+  text-align: center;
+}
+
+.wishlist .cart .items .cartSection.qtyWrap p, .wishlist .cart .items .cartSection.prodTotal p {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.wishlist .cart .items .cartSection input.qty {
+  width: 2em;
+  text-align: center;
+  font-size: 1em;
+  padding: .25em;
+  margin: 1em .5em 0 0;
+}
+
+.wishlist .cart .items .cartSection .itemImg {
+  display: inline;
+  padding-right: 1em;
+}
+
+.wishlist .special {
+  display: block;
+}
+
+.wishlist .special .specialContent {
+  padding: 1em 1em 0;
+  display: block;
+  margin-top: .5em;
+  border-top: 1px solid #dadada;
+}
+
+.wishlist .special .specialContent:before {
+  content: "\21b3";
+  font-size: 1.5em;
+  margin-right: 1em;
+  color: #6f6f6f;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.wishlist a.remove {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  background: #e0e0e0;
+  padding: .5em;
+  font-size: .75em;
+  display: inline-block;
+  border-radius: 100%;
+  line-height: .85;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.wishlist a.remove:hover {
+  background: #f30;
+}
+
+.wishlist .promoCode {
+  border: 2px solid #efefef;
+  float: left;
+  width: 35%;
+  padding: 2%;
+}
+
+.wishlist .promoCode label {
+  display: block;
+  width: 100%;
+  font-style: italic;
+  font-size: 1.15em;
+  margin-bottom: .5em;
+  letter-spacing: -.025em;
+}
+
+.wishlist .promoCode input {
+  width: 85%;
+  font-size: 1em;
+  padding: .5em;
+  float: left;
+  border: 1px solid #dadada;
+}
+
+.wishlist .promoCode input:active, .wishlist .promoCode input:focus {
+  outline: 0;
+}
+
+.wishlist .promoCode a.btn {
+  float: left;
+  width: 15%;
+  padding: .75em 0;
+  border-radius: 0 1em 1em 0;
+  text-align: center;
+  border: 1px solid #2980b9;
+}
+
+.wishlist .promoCode a.btn:hover {
+  border: 1px solid #f69679;
+  background: #f69679;
+}
+
+.wishlist .btn:link, .wishlist .btn:visited {
+  text-decoration: none;
+  letter-spacing: -.015em;
+  font-size: 1em;
+  padding: 1em 3em;
+  color: #fff;
+  background: #2980b9;
+  font-weight: bold;
+  border-radius: 50px;
+  float: right;
+  text-align: right;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.wishlist .btn:after {
+  content: "\276f";
+  padding: .5em;
+  position: relative;
+  right: 0;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.wishlist .btn:hover, .wishlist .btn:focus, .wishlist .btn:active {
+  background: #af0909;
+}
+
+.wishlist .btn:hover:after, .wishlist .btn:focus:after, .wishlist .btn:active:after {
+  right: -10px;
+}
+
+.promoCode .wishlist .btn {
+  font-size: .85em;
+}
+
+.wishlist ul {
+  list-style: none;
+}
+
+.wishlist .subtotal {
+  float: right;
+  width: 35%;
+}
+
+.wishlist .subtotal .totalRow {
+  padding: .5em;
+  text-align: right;
+}
+
+.wishlist .subtotal .totalRow.final {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.wishlist .subtotal .totalRow span {
+  display: inline-block;
+  padding: 0 0 0 1em;
+  text-align: right;
+}
+
+.wishlist .subtotal .totalRow .label {
+  font-size: .85em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.wishlist .subtotal .totalRow .value {
+  letter-spacing: -.025em;
+  width: 35%;
+}
+
+@media only screen and (max-width: 39.375em) {
+  .wishlist .wrap {
+    width: 98%;
+    padding: 2% 0;
+  }
+  .wishlist .projTitle {
+    font-size: 1.5em;
+    padding: 10% 5%;
+  }
+  .wishlist .heading {
+    padding: 1em;
+    font-size: 90%;
+  }
+  .wishlist .cart .items .cartSection {
+    width: 90%;
+    display: block;
+    float: left;
+  }
+  .wishlist .cart .items .cartSection.qtyWrap {
+    width: 10%;
+    text-align: center;
+    padding: .5em 0;
+    float: right;
+  }
+  .wishlist .cart .items .cartSection.qtyWrap:before {
+    content: "QTY";
+    display: block;
+    padding: .25em;
+    font-size: .75em;
+  }
+  .wishlist .cart .items .cartSection.prodTotal, .wishlist .cart .items .cartSection.removeWrap {
+    display: none;
+  }
+  .wishlist .cart .items .cartSection .itemImg {
+    width: 40%;
+  }
+  .wishlist .promoCode, .wishlist .subtotal {
+    width: 100%;
+  }
+  .wishlist a.btn.continue {
+    width: 100%;
+    text-align: center;
+  }
 }
