@@ -57,7 +57,7 @@ $(window).scroll(function () {
     }
 });
 
-// -----product slider ---------
+// -----product counter ---------
 $(document).ready(function () {
     $('.data-one').circliful();
     $('.data-two').circliful();
@@ -327,9 +327,9 @@ $(document).ready(function () {
 
 // -----------wishlist-------
 // Remove Items From Cart
-$('a.remove').click(function () {
+$('a.delete').click(function () {
     event.preventDefault();
-    $(this).parent().parent().parent().hide(400);
+    $(this).parent().parent().parent().parent().hide(400);
 
 })
 
@@ -342,8 +342,7 @@ $('a.btn.continue').click(function () {
 $(function () {
 
     set_($('#three-max'), 9999);  //return 3 maximum digites
-    set_($('#six-max'), 6);    //return 6 maximum digites
-    set_($('#nine-max'), 9);  //return 9 maximum digites
+
 
     function set_(_this, max) {
         var block = _this.parent();
