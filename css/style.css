@@ -784,7 +784,6 @@ iframe#video-player {
 }
 
 .mobileFooter .header-overlay-trigger + .overlay-section > li {
-  border-bottom: solid 1px #f1f1f1;
   width: 100%;
   position: relative;
 }
@@ -1646,6 +1645,666 @@ ul.circles {
   padding: 1vw;
 }
 
+.personal {
+  margin: 2em 0;
+}
+
+.personal ul#tabs-list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.personal label.panel-label {
+  user-select: none;
+  display: block;
+  width: 100%;
+  color: gray;
+  cursor: pointer;
+  background-color: #ecf0f1;
+  transition-property: background-color, color;
+  transition-duration: 200ms;
+}
+
+.personal label.panel-label:hover {
+  color: #2980B9;
+}
+
+.personal .logoutBtn {
+  margin: 1em 7%;
+  text-align: end;
+}
+
+.personal #panels {
+  margin: 0 12em;
+  background-color: white;
+}
+
+.personal #panels .container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.personal #panels section header label.panel-label {
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+
+.personal #panels section main {
+  box-sizing: border-box;
+  max-height: 0;
+  opacity: 0;
+  transition: opacity 600ms;
+  overflow-y: hidden;
+}
+
+.personal #panel-1-ctrl:checked ~ #panels #panel-1 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+.personal #panel-2-ctrl:checked ~ #panels #panel-2 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+.personal #panel-3-ctrl:checked ~ #panels #panel-3 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+.personal #panel-4-ctrl:checked ~ #panels #panel-4 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+.personal #panel-5-ctrl:checked ~ #panels #panel-5 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+.personal #panel-6-ctrl:checked ~ #panels #panel-6 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+.personal #panel-7-ctrl:checked ~ #panels #panel-7 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+@media all and (max-width: 767px) {
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-4 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-5 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-6 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #li-for-panel-7 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #open-nav-label {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #open-nav-label {
+    display: none;
+  }
+  .personal #close-nav-label {
+    display: block;
+    max-height: 0;
+    overflow-y: hidden;
+    background-color: #444444;
+    color: #ecf0f1;
+    padding: 0px;
+    transition: max-height 200ms;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+  }
+  .personal #nav-ctrl:checked ~ #tabs-list #close-nav-label {
+    max-height: 36px;
+    opacity: 1;
+    padding: 12px 24px;
+  }
+  .personal #tabs-list {
+    position: relative;
+  }
+  .personal #tabs-list label.panel-label {
+    padding: 12px 0;
+  }
+  .personal #tabs-list #li-for-panel-1 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #tabs-list #li-for-panel-2 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #tabs-list #li-for-panel-3 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #tabs-list #li-for-panel-4 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #tabs-list #li-for-panel-5 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #tabs-list #li-for-panel-6 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #tabs-list #li-for-panel-7 {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 200ms;
+  }
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: #2980B9;
+    color: white;
+  }
+  .personal #panels .container {
+    width: 100%;
+  }
+  .personal #panels section header {
+    display: block;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label::after {
+    height: 6px;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label::after {
+    height: 6px;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label::after {
+    height: 6px;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label::after {
+    height: 6px;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label::after {
+    height: 6px;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-6-ctrl:checked ~ #tabs-list #li-for-panel-6 label.panel-label::after {
+    height: 6px;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7 {
+    pointer-events: none;
+    cursor: default;
+    transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7.last {
+    border-right: 1px solid transparent;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7 label.panel-label {
+    background-color: white;
+    color: #2980B9;
+    font-weight: bold;
+    padding-top: 26px;
+  }
+  .personal #panel-7-ctrl:checked ~ #tabs-list #li-for-panel-7 label.panel-label::after {
+    height: 6px;
+  }
+  .personal ul#tabs-list {
+    text-align: center;
+  }
+  .personal ul#tabs-list li {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.875em;
+    width: 10%;
+    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.05);
+    border-right: 1px solid #dfdfdf;
+    position: relative;
+  }
+  .personal ul#tabs-list li:hover {
+    transition: none;
+    border-right: none;
+  }
+  .personal ul#tabs-list li:hover.last {
+    border-right: 1px solid transparent;
+  }
+  .personal ul#tabs-list li:hover + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  .personal ul#tabs-list li label.panel-label {
+    position: relative;
+    padding: 24px 0;
+  }
+  .personal ul#tabs-list li label.panel-label::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 100%;
+    background-color: #2980B9;
+    height: 0;
+    transition-property: height;
+    transition-duration: 200ms;
+  }
+  .personal ul#tabs-list li label.panel-label:hover {
+    padding-top: 25px;
+  }
+  .personal ul#tabs-list li label.panel-label:hover::after {
+    height: 6px;
+  }
+  .personal #open-nav-label,
+  .personal #close-nav-label {
+    display: none;
+  }
+  .personal #nav-ctrl {
+    display: none;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .personal main {
+    margin: 0 auto;
+  }
+}
+
+.personal .panel-radios {
+  position: fixed;
+  left: 50%;
+  top: 10px;
+  width: 20px;
+  opacity: 0.5;
+  z-index: 99;
+}
+
+.personal .panel-radios:nth-child(1) {
+  transform: translateX(-70px);
+}
+
+.personal .panel-radios:nth-child(2) {
+  transform: translateX(-50px);
+}
+
+.personal .panel-radios:nth-child(3) {
+  transform: translateX(-30px);
+}
+
+.personal .panel-radios:nth-child(4) {
+  transform: translateX(-10px);
+}
+
+.personal .panel-radios:nth-child(5) {
+  transform: translateX(10px);
+}
+
+.personal .panel-radios:nth-child(6) {
+  transform: translateX(30px);
+}
+
+.personal .panel-radios:nth-child(7) {
+  transform: translateX(50px);
+}
+
+.personal .panel-radios:nth-child(8) {
+  top: 30px;
+  transform: translateX(-10px);
+  display: block;
+}
+
+.personal body {
+  background: #3cb4e7;
+  color: #444444;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.personal #introduction {
+  width: 90%;
+  margin: 0 auto;
+  padding: 48px 24px;
+  color: white;
+}
+
+.personal #introduction h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.personal main h2 {
+  margin: 0.5em 0;
+  font-weight: bold;
+}
+
+.personal main p {
+  line-height: 1.8;
+}
+
+.personal main hr {
+  margin: 12px 0;
+  border-top: 1px solid #dfdfdf;
+}
+
+.personal main .profileImage {
+  align-items: baseline;
+}
+
+.personal main .profileImage .image {
+  text-align: right;
+}
+
+.personal label.demo-label {
+  background-color: #2980B9;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  user-select: none;
+}
+
+.personal label.demo-label:hover {
+  background-color: #3cb4e7;
+}
+
+.personal #demo-child-toggle {
+  display: none;
+}
+
+.personal #demo-child-toggle:checked ~ #demo-parent #demo-child {
+  color: #2980B9;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.personal #demo-parent {
+  margin-top: 8px;
+}
+
+.personal input[type=text], .personal input[type=password], .personal input[type=email], .personal input[type=tel], .personal select {
+  background: #f1f1f1;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  border: none;
+  text-indent: 60px;
+}
+
+.personal input[type=submit] {
+  background: #2980b9;
+  border: none;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+}
+
+.personal input[type=submit]:hover {
+  background: #2980b9;
+}
+
+.personal .input-icon {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+.personal .input-icon:after {
+  content: "";
+  display: block;
+  height: 49px;
+  width: 1px;
+  background: #643232;
+  position: absolute;
+  margin-top: -33px;
+  left: 30px;
+}
+
+.personal .phoneVerification {
+  display: flex;
+  align-items: baseline;
+}
+
+.personal .saveBtn {
+  text-align: center;
+}
+
 @media screen and (min-width: 1366px) {
   .red-price {
     top: 3.3rem;
@@ -1670,6 +2329,12 @@ ul.circles {
   }
   ul.circles {
     margin-top: 23vw;
+  }
+  #panels {
+    margin: 0 !important;
+  }
+  .profileImage .image {
+    text-align: center !important;
   }
 }
 

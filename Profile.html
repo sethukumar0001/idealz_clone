@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="images/favIcon.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <script src="js/main.js"></script> -->
+
+</head>
+
+<body>
+    <section class="header">
+        <div class="topNav">
+            <div class="row">
+                <div class="col-12 col-sm-9">
+                    <div class="left">
+                        <select>
+                            <option>Currency: USD - United States Dollar</option>
+                            <option>Currency: AED - United Arab Emirates</option>
+                            <option>Currency: BHD - Bahraini Dinar</option>
+                            <option>Currency: INR - Indian Rupee</option>
+                            <option>Currency: KWD - Kuwaiti Dinar</option>
+                            <option>Currency: OMR - Omani Rial</option>
+                            <option>Currency: SAR - Saudi Riyal</option>
+                            <option>Currency: USD - United States Dollar</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="right">
+                        <a href="#" class="redLink">العربية</a>
+                        <a href="About.html" class="active redLink">About Idealz</a>
+                        <a href="#" class="redLink">Help Center</a>
+                    </div>
+                    </divro>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-default  navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="HowItWorks.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Products.html">Campaigns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Products.html">Products</a>
+                        </li>
+                    </ul>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search products" /><span></span>
+                    </div>
+                    <form class="form-inline my-2 my-lg-0 loginbar">
+                        <!-- <a href="#" data-toggle="modal" data-target="#modal2" id="b2"> Mohamed Kamal <i
+                                class="fas fa-user" aria-hidden="true"></i> </a> -->
+
+                                <a href="Profile.html" > Mohamed Kamal <i
+                                    class="fas fa-user" aria-hidden="true"></i> </a>
+                                
+
+                    </form>
+                    <form class="form-inline my-2 my-lg-0 ml-4 cart">
+                        <a href="#"> <i class="fas fa-shopping-cart"></i></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="loginModal">
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label"
+                aria-hidden="true" data-trigger="hover">
+                <div class="modal-dialog modal-sm modal-right">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="login tab-content current">
+
+                                <div class="loginLinks">
+                                    <a href="#">Personal Details</a>
+                                    <hr>
+                                    <a href="#">Levels</a>
+                                    <hr>
+                                    <a href="Wishlist.html">Wishlist</a>
+                                    <hr>
+                                    <a href="#">Active Tickets</a>
+                                    <hr>
+                                    <a href="#">iPoints</a>
+                                    <hr>
+                                    <a href="#">Payment Options</a>
+                                    <hr>
+                                    <a href="#">Invite a friend to earn</a>
+                                    <hr>
+                                    <a href="#">Change Password</a>
+                                    <hr>
+                                    <a href="Register.html">Logout</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <div class="personal">
+
+        <!-- TAB CONTROLLERS -->
+        <input id="panel-1-ctrl" class="panel-radios" type="radio" name="tab-radios" checked hidden>
+        <input id="panel-2-ctrl" class="panel-radios" type="radio" name="tab-radios" hidden>
+        <input id="panel-3-ctrl" class="panel-radios" type="radio" name="tab-radios" hidden>
+        <input id="panel-4-ctrl" class="panel-radios" type="radio" name="tab-radios" hidden>
+        <input id="panel-5-ctrl" class="panel-radios" type="radio" name="tab-radios" hidden>
+        <input id="panel-6-ctrl" class="panel-radios" type="radio" name="tab-radios" hidden>
+        <input id="panel-7-ctrl" class="panel-radios" type="radio" name="tab-radios" hidden>
+        <input id="nav-ctrl" class="panel-radios" type="checkbox" name="nav-checkbox" hidden>
+
+
+        <!-- TABS LIST -->
+        <ul id="tabs-list">
+            <!-- MENU TOGGLE -->
+            <label id="open-nav-label" for="nav-ctrl"></label>
+            <li id="li-for-panel-1">
+                <label class="panel-label" for="panel-1-ctrl">Personal Details</label>
+            </li>
+            <li id="li-for-panel-2">
+                <label class="panel-label" for="panel-2-ctrl">Levels</label>
+            </li>
+            <li id="li-for-panel-3">
+                <label class="panel-label" for="panel-3-ctrl">iPoints</label>
+            </li>
+            <li id="li-for-panel-4">
+                <label class="panel-label" for="panel-4-ctrl">Payment Options</label>
+            </li>
+            <li id="li-for-panel-5">
+                <label class="panel-label" for="panel-5-ctrl">Invite a friend</label>
+            </li>
+            <li id="li-for-panel-6">
+                <label class="panel-label" for="panel-6-ctrl">Change Password</label>
+            </li>
+            <li id="li-for-panel-7" class="last">
+                <label class="panel-label" for="panel-7-ctrl">Active Tickets</label>
+            </li>
+            <label id="close-nav-label" for="nav-ctrl">Close</label>
+        </ul>
+
+        <!-- THE PANELS -->
+        <article id="panels">
+            <div class="container">
+                <section id="panel-1">
+                    <main>
+
+                        <div class="row profileImage">
+                            <div class="col-12 col-sm-6">
+                                <h3 class="name">Mohamed Kamal</h3>
+                                <p>
+                                    mo.kamal1311@gmail.com
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-6 image">
+                                <form>
+                                    <img id="image" src="images/user.PNG" />
+                                    <input type="file" id="myfile" style="display: none;""/>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        <h2>Personal Details</h2>
+
+                        <form>
+                            <div class=" row">
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-section">
+                                            <span class="fa fa-user input-icon"></span>
+                                            <input type="text" name="name" placeholder="Firstname" value="Mohamed">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-section">
+                                            <span class="fa fa-user input-icon"></span>
+                                            <input type="text" name="name" placeholder="Lastname" value="Kamal">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-section">
+                                        <span class="fas fa-mars input-icon"></span>
+                                        <select>
+                                            <option disabled selected>Please select gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-section">
+                                        <span class="fas fa-hand-holding-heart input-icon"></span>
+                                        <select>
+                                            <option disabled selected>Please select status</option>
+                                            <option>Single</option>
+                                            <option>Married</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-section">
+                                        <span class="fas fa-passport input-icon"></span>
+                                        <select>
+                                            <option disabled selected>Please select Nationality</option>
+                                            <option>United Arab Emirates</option>
+                                            <option>Afghanistan</option>
+                                            <option>Albania</option>
+                                            <option>Algeria</option>
+                                            <option>AmericanSamoa</option>
+                                            <option>Andorra</option>
+                                            <option>Angola</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-section">
+                                        <span class="fas fa-flag input-icon"></span>
+                                        <select>
+                                            <option disabled selected>Please select country of residence</option>
+                                            <option>United Arab Emirates</option>
+                                            <option>Afghanistan</option>
+                                            <option>Albania</option>
+                                            <option>Algeria</option>
+                                            <option>AmericanSamoa</option>
+                                            <option>Andorra</option>
+                                            <option>Angola</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+
+                            <hr>
+                            <h2>Contact</h2>
+                            <form>
+                                <div class="row phoneVerification">
+                                    <div class="col-12 col-sm-4">
+                                        <div class="form-section">
+                                            <span class="fa fa-plus input-icon"></span>
+                                            <select>
+                                                <option disabled>Country code</option>
+                                                <option selected>+971</option>
+                                                <option>+93</option>
+                                                <option>+355</option>
+                                                <option>+213</option>
+                                                <option>+1684</option>
+                                                <option>+376</option>
+                                                <option>+244</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4">
+                                        <div class="form-section">
+                                            <span class="fas fa-phone-volume input-icon"></span>
+                                            <input type="tel" name="phone" placeholder="Mobile no" value="581468393">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4">
+                                        <div class="form-section">
+                                            <button type="submit" class="btn btn-outline-primary btn-block">Verify
+                                                now</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-12">
+                                        <input type="checkbox"> I want to receive email newsletters about Idealz
+                                        campaigns and advertisements
+                                    </div>
+                                </div>
+
+                                <div class="form-section saveBtn">
+                                    <button type="button" class="btn btn-primary btn-lg">Save Changes</button>
+
+                                </div>
+                            </form>
+                    </main>
+                </section>
+                <section id="panel-2">
+                    <main>
+
+                    </main>
+                </section>
+                <section id="panel-3">
+                    <main>
+
+                    </main>
+                </section>
+                <section id="panel-4">
+                    <main>
+
+                    </main>
+                </section>
+                <section id="panel-5">
+                    <main>
+
+                    </main>
+                </section>
+                <section id="panel-6">
+                    <main>
+
+                    </main>
+                </section>
+                <section id="panel-7">
+                    <main>
+
+                    </main>
+                </section>
+            </div>
+        </article>
+        <div class="container mb-5">
+            <div class="logoutBtn">
+                <a href="Register.html"  class="btn btn-outline-danger">Logout</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="container">
+            <div class="talk">
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5 form">
+                        <h2>Let’s talk</h2>
+                        <p class="para">Do you have questions or feedback? Please
+                            email directly to: <a href="mailto:info@contact.com">info@contact.com</a> </p>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="row mt-2">
+                            <div class="col-sm-10">
+                                <p>Address</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-map"></i>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm-10">
+                                <p>Phone</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="fas fa-tty"></i>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm-10">
+                                <p>E-mail</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm-10">
+                                <p>Location</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="fas fa-globe-americas"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footerLinks">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-12 col-sm-4">
+                                <h3>Quick Links</h3>
+                                <a href="About.html">About Idealz</a>
+                                <a href="Register.html">My Account</a>
+                                <a href="#">Active Tickets</a>
+                                <a href="#">Campaigns</a>
+                                <a href="#">Products</a>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <h3>Campaign</h3>
+                                <a href="#">Cash</a>
+                                <a href="#">Lifestyle</a>
+                                <a href="#">Auto</a>
+                                <a href="#">Watches</a>
+                                <a href="#">Electronics</a>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <h3>Customer Service</h3>
+                                <a href="#">Contact Us</a>
+                                <a href="#">FAQs</a>
+                                <a href="HowItWorks.html">How it works</a>
+                                <a href="#">Charities</a>
+                                <a href="#">Campaign Draw Terms & Condition</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-1 vl"></div>
+
+                    <div class="col-12 col-sm-4 text-center">
+                        <div class="row text-center">
+                            <div class="col-12 social-btn">
+                                <i class="fab fa-facebook-f fa-2x fb"></i>
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <i class="fab fa-linkedin-in  fa-2x"></i>
+                                <i class="fab fa-github fa-2x"></i>
+                            </div>
+                        </div>
+                        <p class="para">
+                            For the ultimate shopping experience download our app.
+                        </p>
+                        <div class="row store">
+                            <img class="img-fluid" src="images/s1.webp" alt="app store">
+                            <img class="img-fluid" src="images/s2.webp" alt="Google play">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRights">
+            <div class="container">
+                <p>Idealz Enterprises LLC © 2020. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mobileFooter">
+        <ul>
+            <li class="empty">
+                <a href="#">
+                    <i class="fas fa-home"></i>
+                    <span class="menuTitle">Home</span>
+                </a>
+            </li>
+            <li class="empty">
+                <a href="#">
+                    <i class="fas fa-heart"></i>
+                    <span class="menuTitle">Favorites</span>
+                </a>
+            </li>
+            <li>
+                <a class="empty">
+                    <i class="fas fa-user"></i>
+                    <span class="menuTitle">My Idealz</span>
+                </a>
+            </li>
+
+            <li class="">
+                <a href="#">
+                    <i class="fas fa-ticket-alt"></i>
+                    <span class="menuTitle">Tickets</span>
+                </a>
+            </li>
+            <li class="cart  empty">
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="menuTitle">Cart</span>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
